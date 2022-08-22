@@ -1,0 +1,58 @@
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Tiago Mateus Junior','210','Palmas');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Luciana Gomes','202','Palmas');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('João Mateus','2300','Gurupi');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('José Silva','1024','Paraíso');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Juraci','106','Miranorte');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Paulo','101','Goianorte');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Adriana Calcanhoto','rua Alvorada','Paraíso');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Rosane','rua das Flores','Guaraí');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Mara','rua das Águas','Porto Nacional');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Julia','rua de Madeira','Paraíso');
+INSERT INTO `aluno`(`ALUNOME`, `ALURUA`, `ALUCIDADE`) VALUES ('Julia','rua de Madeira','Palmas');
+
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('João José','103','Palmas');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Maria José','201','Palmas');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Bruno','305','Paraíso');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('José Ricardo','1106','Porto Nacional');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Manuela','120','Araguaína');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Bruno','1003','Porto Nacional');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Luciana','100','Miracema');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Paulo','150','Palmas');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Lual','1006','Paraíso');
+INSERT INTO `professor`(`PROFNOME`, `PROFRUA`, `PROFCIDADE`) VALUES ('Antonio Marcos','170','Araguaína');
+
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Química','Ensino Médio','4');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Biologia','Ensino Médio','4');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('História','Ensino Médio','2');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Religião','Ensino Médio','2');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Português','Ensino Pós Médio','4');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Física','Ensino Pós Médio','6');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Matemática','Ensino Pós Médio','4');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Geografia','Ensino Pós Médio','2');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Informática Aplicada','CST Sistemas para Internet','4');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Banco de Dados','CST Sistemas para Internet','4');
+INSERT INTO `disciplina`(`DISCNOME`, `DISCCURSO`, `QTDAULA`) VALUES ('Programação de Banco de Dados','Computação','4');
+
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','10','1');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','4','1');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','6','1');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','3','5');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','1','6');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','6','2');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','9','7');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','10','8');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','1','9');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','2','2');
+INSERT INTO `matricula`(`ANO`, `DISCNUMERO`, `ALUNUMERO`) VALUES ('2018','11','11');
+
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','1','10');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','2','5');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','3','7');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','4','4');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','5','9');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','6','2');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','7','3');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','8','9');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','9','6');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','10','3');
+INSERT INTO `profdisc`(`ANO`, `DISCNUMERO`, `PROFNUMERO`) VALUES ('2018','11','5');
